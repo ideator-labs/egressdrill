@@ -1,5 +1,7 @@
 # EgressDrill
 
+Agents and contributors, read [AGENTS.md](AGENTS.md) before you change anything.
+
 EgressDrill runs inside an agent sandbox and asks a blunt question: if an agent in here goes rogue, can it still move a secret out?
 
 You point it at a canary collector you control. It mints a fresh secret and fires a short battery of egress probes. Each probe copies a trick real agents have used to slip data through a "GET-only" rule or a host allowlist. The canary records what actually arrived. The drill then scores every probe escaped or contained.
