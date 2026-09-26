@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+canary_hits.jsonl
+egressdrill_report.json
+egressdrill_report*.json
+.venv/
+venv/
+*.log
+.DS_Store
